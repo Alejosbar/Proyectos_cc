@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabeza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #CCCCCC;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu-links {
+    display: flex;
+    gap: 20px;
+}
+
+.redondo {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    justify-content: left;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.logoclaro{
+
+left: 150px;
+
+}
+.principio{
+background-color: rgb(18, 83, 2);
+padding: 90px 90px;
+justify-content: end;
+
+}
+.br{
+    color: yellow;
+    padding: auto;
+}
+.chimera{
+    text-align: center;
+}
+
+.img{
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+
+}
+.lado{
+    width: 250px;
+    height: 250px;
+    border: 10px;
+}
+.imagenes_medio{
+    width: 350px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 7px 5px 8px rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
+    transition: transform 0.3s, box-shadow 0.3s;
+    
+    }
+.datos{
+    color: #e7a731; text-align: center; padding: 10px; font-weight: bold; font-size: 36px;
+}
+h1,h3,h4,h5,h6{
+    color: rgb(255, 255, 255);
+    text-shadow: 1.5px 1px 8px rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+.centrado-img{
+    width: 500px;
+    height: 350px;
+}
+.centrado{
+    display: flex;
+justify-content: center;
+}
+.final{
+    text-align: center;
+    background-color: #54d11a; 
+    font-weight: 50px;
+    font-size: 25px;
+    background-image: url('Reciclaje1.jpeg') ;
+    
+}
+.mafioso{
+  width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.tiposbasuras{
+    text-align: center;
+    justify-content: space-around;
+}
+.footer{
+    
+    
+}
+.imagenes_coy{
+    text-align: center;
+    justify-content:space-around;
+}
